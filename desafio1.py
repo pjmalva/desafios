@@ -9,6 +9,6 @@ Imprimir esse resultado em uma só linha, separado por vírgula!
 
 """
 
-divisible_by_seven = [str(i) for i in range(2000, 3201) if i % 7 == 0]
+divisible_by_seven = [str(i) for i in range(2000, 3201) if i % 7 == 0 and i % 5 != 0]
 print(','.join(divisible_by_seven))
 
